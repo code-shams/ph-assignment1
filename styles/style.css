@@ -97,7 +97,7 @@ main {
 .card-box {
     border-radius: 16px;
     margin-top: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     padding: 32px;
     flex: 1;
 }
@@ -126,7 +126,7 @@ main {
     background-color: rgba(247, 235, 207, 1);
 }
 
-.card-box p{
+.card-box p {
     margin-bottom: 24px;
 }
 
@@ -140,18 +140,48 @@ main {
 }
 
 #card1 button {
-    background-color: #5490F5;
+    background-color: #5490f5;
 }
 
 #card2 button {
-    background-color: #09A15C
+    background-color: #09a15c;
 }
 
 #card3 button {
-    background-color: #FFC239;
+    background-color: #ffc239;
 }
 .btn {
     margin-top: auto;
 }
 
-/*  */
+/* Styles for the quotes section */
+.quote-container {
+    background-color: white;
+    padding: 30px 24px 48px 24px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+.quotebg {
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.quote {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.quote-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.quote-source {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    line-height: 24px;
+}
