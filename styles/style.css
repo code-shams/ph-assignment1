@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* shared styles */
+.primary-bg {
+    background-color: #c6e4d6;
+}
+
+.secondary-bg {
+    background-color: #006a50;
+}
+
+.primary-font {
+    font-family: "Fira Sans", serif;
+}
+
+/* Hero Section Style */
+.hero-container {
+    display: flex;
+    border-radius: 24px;
+    /* max-width: 1280px; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.hero-content {
+    margin: 0px 60px;
+}
+
+.hero-content p {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-content h3 {
+    color: #0e0e0e;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-container img {
+    width: 470px;
+    margin: 80px 60px;
+    /* height: 300px; */
+}
