@@ -304,11 +304,14 @@ main {
 }
 .news-banner-content span {
     padding-right: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .news-banner-content p {
     margin-top: 12px;
-    margin-bottom: 32px;;
+    margin-bottom: 32px;
 }
 
 .news-banner-content button {
@@ -318,5 +321,67 @@ main {
     font-size: 18px;
     font-weight: 600;
     color: white;
-    background-color: #006A50;
+    background-color: #006a50;
 }
+
+/* Styles for Donate section */
+.donate-container {
+    margin-top: 60px;
+}
+.donate-container h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.donate-container p {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.donate-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.donate-card-container button {
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 100%;
+}
+
+.donate-input input {
+    width: 100%;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    padding: 20px 0px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+
+.donate-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.donate-button button {
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006a50;
+}
+
+/* Styles for Newsletter Section */
